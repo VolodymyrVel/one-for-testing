@@ -41,9 +41,9 @@ vuser_init=0
 Action=0
 vuser_end=0
 [Replayed Actions]
-vuser_init=0
-Action=0
-vuser_end=0
+vuser_init=1
+Action=1
+vuser_end=1
 [Interpreters]
 vuser_init=cci
 Action=cci
@@ -51,7 +51,7 @@ vuser_end=cci
 [TransactionsOrder]
 Order=
 [StateManagement]
-LastReplayStatus=0
+LastReplayStatus=1
 [ActiveReplay]
 LastReplayedRunName=
 ActiveRunName=

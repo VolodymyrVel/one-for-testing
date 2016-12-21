@@ -1,0 +1,37 @@
+Virtual User Script started at : 12/21/2016 11:21:17 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(19): Notify: Saving Parameter "DnsServer = 16.59.67.152".
+Action.c(20): Notify: Saving Parameter "Hostname = myd-vm05183.hpeswlab.net".
+Action.c(23): Notify: Parameter Substitution: parameter "DnsServer" =  "16.59.67.152"
+Action.c(23): Notify: Parameter Substitution: parameter "Hostname" =  "myd-vm05183.hpeswlab.net"
+Action.c(23): Querying host information for 'myd-vm05183.hpeswlab.net' from 16.59.67.152... [Time:2016-12-21 11:21:17]
+Action.c(23): Notify: Transaction "DnsQuery" started.
+Action.c(23): Host myd-vm05183.hpeswlab.net resolved to 16.60.168.81 (w/ TTL=300 secs). [Time:2016-12-21 11:21:17]
+Action.c(23): Notify: Transaction "DnsQuery" ended with a "Pass" status (Duration: 0.0128).
+Action.c(31): Notify: Parameter Substitution: parameter "Hostname" =  "myd-vm05183.hpeswlab.net"
+(1) IP address for myd-vm05183.hpeswlab.net is 16.60.168.81 [Time:2016-12-21 11:21:17]
+Ending action Action.
+Ending iteration 1.
+Starting iteration 2.
+Starting action Action.
+Action.c(19): Notify: Saving Parameter "DnsServer = 16.59.67.152".
+Action.c(20): Notify: Saving Parameter "Hostname = myd-vm05183.hpeswlab.net".
+Action.c(23): Notify: Parameter Substitution: parameter "DnsServer" =  "16.59.67.152"
+Action.c(23): Notify: Parameter Substitution: parameter "Hostname" =  "myd-vm05183.hpeswlab.net"
+Action.c(23): Querying host information for 'myd-vm05183.hpeswlab.net' from 16.59.67.152... [Time:2016-12-21 11:21:17]
+Action.c(23): Notify: Transaction "DnsQuery" started.
+Action.c(23): Host myd-vm05183.hpeswlab.net resolved to 16.60.168.81 (w/ TTL=300 secs). [Time:2016-12-21 11:21:17]
+Action.c(23): Notify: Transaction "DnsQuery" ended with a "Pass" status (Duration: 0.0088).
+Action.c(31): Notify: Parameter Substitution: parameter "Hostname" =  "myd-vm05183.hpeswlab.net"
+(1) IP address for myd-vm05183.hpeswlab.net is 16.60.168.81 [Time:2016-12-21 11:21:17]
+Ending action Action.
+Ending iteration 2.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
+Vuser 0 (thread 7656), ended OK."
