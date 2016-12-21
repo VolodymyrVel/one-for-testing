@@ -16,7 +16,7 @@ Action()
 	char *results = NULL;
 	int   rescnt  = 0;
 
-	lr_save_string("199.35.107.2","DnsServer");	// Set DNS server IP Address
+	lr_save_string("16.59.67.152","DnsServer");	// Set DNS server IP Address
 	lr_save_string("www.merc-int.com", "Hostname");	// Set hostname to resolve
 
 	// Perform DNS Query
