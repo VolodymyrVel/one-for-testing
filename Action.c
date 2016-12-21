@@ -17,7 +17,7 @@ Action()
 	int   rescnt  = 0;
 
 	lr_save_string("16.59.67.152","DnsServer");	// Set DNS server IP Address
-	lr_save_string("www.merc-int.com", "Hostname");	// Set hostname to resolve
+	lr_save_string("myd-vm05183.hpeswlab.net", "Hostname");	// Set hostname to resolve
 
 	// Perform DNS Query
 	results = (char *) ms_dns_query("DnsQuery",
