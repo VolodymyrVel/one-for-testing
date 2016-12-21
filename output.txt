@@ -1,0 +1,17 @@
+Virtual User Script started at : 12/21/2016 11:24:32 AM
+Starting action vuser_init.
+Ending action vuser_init.
+Running Vuser...
+Starting iteration 1.
+Starting action Action.
+Action.c(23): Querying host information for 'myd-vm05183.hpeswlab.net' from 16.59.67.152...
+Action.c(23): Notify: Transaction "DnsQuery" started.
+Action.c(23): Host myd-vm05183.hpeswlab.net resolved to 16.60.168.81 (w/ TTL=300 secs).
+Action.c(23): Notify: Transaction "DnsQuery" ended with a "Pass" status (Duration: 0.0082).
+(1) IP address for myd-vm05183.hpeswlab.net is 16.60.168.81
+Ending action Action.
+Ending iteration 1.
+Ending Vuser...
+Starting action vuser_end.
+Ending action vuser_end.
+Vuser Terminated.
